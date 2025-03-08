@@ -3,7 +3,7 @@ const {
 	GetMultiplication,
 	GetSumAndMultiplication,
 	GetSymbolsCount,
-	SomeThreeNumber,
+	SomeThreeNumber
 } = require('../../../src/HomeworksForBegginer/HW1-DataType/script.js')
 describe('Тест функций первого ДЗ', () => {
 	describe('Тест функций которым необходимо вернуть произведение и сумму двух чисел', () => {

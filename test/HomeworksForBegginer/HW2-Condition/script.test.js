@@ -1,3 +1,9 @@
+const {
+	GetMaxValue,
+	GetStringMonth,
+	CanCicleInSquare
+} = require('../../../src/HomeworksForBegginer/HW2-Condition/script.js')
+
 describe('Тест функций второго ДЗ', () => {
 	describe('Определение максимального значения', () => {
 		test('Корректное определение у положительных чисел', () => {
@@ -24,7 +30,7 @@ describe('Тест функций второго ДЗ', () => {
 			expect(CanCicleInSquare(40, 100)).toBe(true)
 		})
 		test('Корректное уведомление о том что круг не помещается', () => {
-			expect(GetMaxValue(100,81)).toBe(false)
+			expect(CanCicleInSquare(100,81)).toBe(false)
 		})
 	})
 })

@@ -21,5 +21,5 @@ module.exports = {
   GetMultiplication,
   GetSumAndMultiplication,
   GetSymbolsCount,
-  SomeThreeNumber,
+  SomeThreeNumber
 };
