@@ -2,7 +2,8 @@ function CreateUser(userName){
 	return {name: userName};
 }
 function SetUserAge(user, userAge){
-	return null;
+	user.age = userAge;
+	return user;
 }
 
 function CreateAdmin(user, userRole) {

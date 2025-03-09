@@ -11,7 +11,8 @@ describe('Тест функций четвертого ДЗ', () => {
 	})
 
 	test('Установка user age', () => {
-		expect(SetUserAge(null)).toBe(null)
+		let user = CreateUser("Josh");
+		expect(SetUserAge(user, 27)).toEqual({name: "Josh", age: 27})
 	})
 
 	test('Установка user role', () => {
