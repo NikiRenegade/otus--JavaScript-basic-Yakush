@@ -11,10 +11,10 @@ function CreateAdmin(user, userRole) {
 	
 }
 
-function DestructuringAdminFields () {
-	return null;
+function DestructuringAdminFields (user) {
+	let { name, age, role} = user;
+	return { name, age, role};
 }
-
 
 module.exports = {
 	CreateUser,

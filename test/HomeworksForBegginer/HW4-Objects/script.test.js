@@ -25,6 +25,6 @@ describe('Тест функций четвертого ДЗ', () => {
 		let user = CreateUser("Josh");
 		user = SetUserAge(user, 27);
 		let admin = CreateAdmin(user, "admin");
-		expect(DestructuringAdminFields(null)).toEqual({newName: "Josh", newAge: 27, newRole: "admin"})
+		expect(DestructuringAdminFields(admin)).toEqual({name: "Josh", age: 27, role: "admin"})
 	})
 })
