@@ -7,7 +7,8 @@ function SetUserAge(user, userAge){
 }
 
 function CreateAdmin(user, userRole) {
-	return null;
+	return Object.assign({}, user, {role: "admin"});
+	
 }
 
 function DestructuringAdminFields () {
