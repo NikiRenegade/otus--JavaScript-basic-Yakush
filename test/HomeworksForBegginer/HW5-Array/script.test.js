@@ -20,7 +20,7 @@ describe('Тест функций пятого ДЗ', () => {
 		expect(GetDoubleArray(array)).toEqual([2,6,10,14,-2,-6,-10,-14,-20,20]);
 	})
 
-	test('Деструктуризация объекта admin', () => {
+	test('Получение максимального и минимального элемента массива', () => {
 		let array = CreateArray();
 		expect(FindMinMaxValue(array)).toEqual({min: -10, max: 10})
 	})

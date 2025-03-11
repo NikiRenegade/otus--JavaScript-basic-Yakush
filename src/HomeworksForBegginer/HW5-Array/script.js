@@ -2,16 +2,19 @@ function CreateArray(){
 	return [1,3,5,7,-1,-3,-5,-7,-10,10];
 }
 function GetSumArray(array){
-	return null;
+	return array.reduce((acc, el) => acc + el, 0);
 }
 
 function GetDoubleArray(array) {
-	return null;
+	return array.map(el => el * 2);
 	
 }
 
 function FindMinMaxValue (array) {
-	return null;
+	return {
+		min: Math.min(...array),
+		max: Math.max(...array)
+	};
 }
 
 module.exports = {
