@@ -13,8 +13,8 @@ describe('Тест функций девятого ДЗ', () => {
 	})
 	
 	test('Получение площади круга и длины окружности', () => {
-		expect(GetAreaAndCircumferenceCircle(5)).toBe({area: Math.PI * 10, Circumference: Math.PI * 25}); 
-		expect(GetAreaAndCircumferenceCircle(3)).toBe({area: Math.PI * 6, Circumference: Math.PI * 9}); 
+		expect(GetAreaAndCircumferenceCircle(5)).toEqual({area: Math.PI * 10, Circumference: Math.PI * 25}); 
+		expect(GetAreaAndCircumferenceCircle(3)).toEqual({area: Math.PI * 6, Circumference: Math.PI * 9}); 
 	})
 
 	test('Получение корней квадратного уравнения', () => {
